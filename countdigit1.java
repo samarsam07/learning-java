@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class countdigit1 {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        int n=in.nextInt();
-        int target=in.nextInt();
+        Scanner scan=new Scanner(System.in);
+        int n=scan.nextInt();
+        int target=scan.nextInt();
         int rem;
         int count=0;
         while(n!=0){
