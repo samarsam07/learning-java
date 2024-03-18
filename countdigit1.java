@@ -15,5 +15,6 @@ public class countdigit1 {
             n=n/10;
         }
         System.out.println(count);
+        scan.close();
     }
 }

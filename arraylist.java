@@ -19,5 +19,6 @@ public class arraylist {
         for (int i = 0; i < args.length; i++) {
           System.out.println( list.get(i));         
         }
+        in.close();
     }
 }

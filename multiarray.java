@@ -13,5 +13,6 @@ public class multiarray {
        } 
      }
      System.out.println(list);
+     in.close();
     }
 }

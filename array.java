@@ -28,5 +28,6 @@ public class array {
         for (int[] a : arr2d) {
             System.out.println(Arrays.toString(a));
         }
+        in.close();
     }
 }

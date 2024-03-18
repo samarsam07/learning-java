@@ -12,5 +12,6 @@ public class reverseint {
             n=n/10;
         }
         System.out.println(temp);
+        in.close();
     }
 }
