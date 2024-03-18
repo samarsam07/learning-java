@@ -17,7 +17,7 @@ public class arraylist {
             list.add(in.nextInt());
         }
         for (int i = 0; i < args.length; i++) {
-          System.out.println( list.get(i)); 
+          System.out.println( list.get(i));         
         }
     }
 }
