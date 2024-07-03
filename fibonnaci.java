@@ -2,22 +2,20 @@ import java.util.Scanner;
 
 public class fibonnaci {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
-        int N;
+      
+        fibonnaci a=new fibonnaci();
         System.out.println("enter the nth term");
-        N=in.nextInt();
-        int x=0;
-        int y=1;
-        int z;
-        System.out.println(x);
-        System.out.println(y);
-
-        for (int i = 0; i<N-2; i++) {
-            z=x+y;
-            x=y;
-            y=z;
-            System.out.println(z);
+        int z=a.fibonaccinum(6);
+        System.out.println(z);      
+    }
+    int fibonaccinum(int n){
+     if(n==0){
+            return 0;
         }
-        
+     if(n==1){
+        return 1;
+     }
+    int temp=fibonaccinum(n-1)+fibonaccinum(n-2);
+    return temp;
     }
 }

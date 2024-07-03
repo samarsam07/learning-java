@@ -9,8 +9,6 @@ public class swingtut {
         JLabel label=new JLabel();
         label.setText("HELLO");
         label.setBackground(new Color(50,59,80));
-      
-
         frame.setSize(250,250);
         frame.add(label);
         frame.setVisible(true);
