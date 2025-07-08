@@ -1,6 +1,6 @@
 public class Squareroot {
     public static void main(String[] args) {
-        System.out.println(Sqrt(4, 3));
+        System.out.println(Sqrt(122, 6));
     }
     static double Sqrt(int n, int precision){
         double root=0;
