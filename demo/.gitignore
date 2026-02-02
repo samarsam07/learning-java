@@ -1,6 +1,6 @@
-/Bank.class
-/Pattern.class
-/Questions.class
-/Questions2.class
-/Test.class
-*/.class
+
+*.class
+
+bin/
+out/
+target/

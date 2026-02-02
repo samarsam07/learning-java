@@ -5,6 +5,12 @@ public class Employee {
     private String name;
     private  double salary;
 
+    public Employee(String name, double salary, int id) {
+        this.name = name;
+        this.salary = salary;
+        this.id = id;
+    }
+
     public Employee() {
     }
 
@@ -33,5 +39,14 @@ public class Employee {
     }
     public  void updateSalary(){
         this.salary+=((double) 10 /100)*salary;
+    }
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", salary=" + salary +
+                '}';
     }
 }
